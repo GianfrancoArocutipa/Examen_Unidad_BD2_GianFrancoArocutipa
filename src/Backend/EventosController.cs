@@ -15,3 +15,5 @@ namespace Backend.Controllers {
         }
     }
 }
+[HttpGet("health")]
+public IActionResult Health() => Ok("Working");
